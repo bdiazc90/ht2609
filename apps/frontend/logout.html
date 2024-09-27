@@ -7,5 +7,10 @@
 </head>
 <body>
     <!-- Usar Javascript para eliminar el state y redirigir a /index.html -->
+    <script src="app.js"></script>
+    <script>
+        localStorage.removeItem(LS_KEY);
+        window.location.href = "/apps/frontend/index.html";
+    </script>
 </body>
 </html>
